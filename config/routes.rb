@@ -3,6 +3,6 @@ Rails.application.routes.draw do
 
   root 'pages#home' #define initial "root" and #method to follow once opening localhost:3000
   get 'about', to: 'pages#about' #define get method for the 'about' page
-  resources :articles, only: [:show]
+  resources :articles, only: [:show, :index]
 
 end
