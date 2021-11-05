@@ -1,3 +1,9 @@
-<h1> This is the Home page </h1>
+<div class="container" id="home-container">
+  <%= render 'layouts/jumbotron' %>
+</div>
 
-<%= link_to 'Go to articles listing', articles_path %>  | <%= link_to 'About Us', about_path %>
+<footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
+  <div class="container text-center">
+    <small>Copyright &copy; Your Website</small>
+  </div>
+</footer>
