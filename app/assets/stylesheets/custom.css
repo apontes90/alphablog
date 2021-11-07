@@ -1,9 +1,7 @@
 @import 'bootstrap/dist/css/bootstrap';
 
 .navbar {
-
     background-color: #000000 !important;
-
 }
 
 .nav-link{
@@ -53,10 +51,6 @@ body {
     bottom: 0;
 }
 
-
-
 .navbar-brand {
-
     font-size: 3rem;
-
 }
